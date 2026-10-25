@@ -1,0 +1,13 @@
+name = "discohooktube"
+main = "src/index.js"
+compatibility_date = "2026-10-24"
+
+# Automated check schedule (Every 3 minutes)
+[triggers]
+crons = ["*/3 * * * *"]
+
+# OPTIONAL: Uncomment below if using MODE = "standalone_ui"
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "dht-database"
+# database_id = "PASTE_YOUR_DATABASE_ID_HERE"
